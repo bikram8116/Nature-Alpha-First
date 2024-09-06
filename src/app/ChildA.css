@@ -1,0 +1,16 @@
+/* .container {
+    background-color: green;
+} */
+
+/* #checkBoxed:checked ~ p{
+    background-color: red;
+
+}
+
+#checkBoxed:checked + .p-tag {
+    background-color: red;
+} */
+
+#checkBoxed:checked~.p-tag {
+    background-color: red;
+}
